@@ -32,25 +32,6 @@ body {
     line-height:33px;
 }
 
-@media (max-width: 800px) {
-    body {
-        padding: 20px 15px;
-    }
-
-    .title-1 {
-        width: 100%;
-        font-size: 28px;
-        line-height: 36px;
-        margin: 20px 0 0 0;
-    }
-
-    .paragraf-1 {
-        width: 100%;
-        font-size: 16px;
-        line-height: 26px;
-        margin: 15px 0 0 0;
-    }
-}
 
 .text-block-3 {
 
@@ -112,3 +93,22 @@ body {
     margin-right: 362px;
 }
 
+@media (max-width: 800px) {
+    body {
+        padding: 20px 15px;
+    }
+
+    .title-1 {
+        width: 100%;
+        font-size: 28px;
+        line-height: 36px;
+        margin: 20px 0 0 0;
+    }
+
+    .paragraf-1 {
+        width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 15px 0 0 0;
+    }
+}
