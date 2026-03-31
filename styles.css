@@ -10,7 +10,7 @@ body {
     width: 700px;
     height: 88px;
     font-size: 42px;
-    color:rgba(0,0,0,0.84);
+    color: rgba(0, 0, 0, 0.84);
     text-align: left;
     line-height: 44px;
     margin-right: 362px;
@@ -27,9 +27,9 @@ body {
     margin-top: 10px;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
 }
 
 
@@ -38,18 +38,18 @@ body {
     width: 700px;
     height: 132px;
 
-    font-family: Georgia, serif;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 21px;
-    line-height: 33px; 
+    line-height: 33px;
 
-    
+
     color: rgba(0, 0, 0, 0.84);
 
     text-align: left;
 
 
-    margin-left: 362px;   /* Отступ слева */
-    margin-right: 362px;  /* Отступ справа */
+    margin-left: 362px;
+    margin-right: 362px;
 }
 
 
@@ -58,12 +58,12 @@ body {
     height: 39px;
 
     margin-top: 10px;
-    margin-left: 364px;   /* Отступ слева */
-    margin-right: 364px; 
+    margin-left: 364px;
+    margin-right: 364px;
 
-    font-family: "Lucida Grande Bold", sans-serif; 
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size: 34px;
-    font-weight: bold; 
+    font-weight: bold;
     line-height: 39px;
     color: rgba(0, 0, 0, 0.84);
     text-align: left;
@@ -73,23 +73,22 @@ body {
     width: 700px;
     height: 727px;
 
-    margin-left: 362px; 
+    margin-left: 362px;
     margin-right: 362px;
 }
 
 
 .text-block-4 {
-    font-family:Georgia;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
 
     width: 700px;
     height: 267px;
 
-    margin-left: 362px;   
+    margin-left: 362px;
     margin-right: 362px;
 }
 
@@ -100,15 +99,39 @@ body {
 
     .title-1 {
         width: 100%;
+        height: auto;
         font-size: 28px;
         line-height: 36px;
         margin: 20px 0 0 0;
+        padding: 0;
+        text-align: left;
     }
 
-    .paragraf-1 {
+    .paragraf-1,
+    .text-block-3,
+    .text-block-4 {
         width: 100%;
+        height: auto;
         font-size: 16px;
         line-height: 26px;
         margin: 15px 0 0 0;
+        padding: 0;
+    }
+
+    .p-title-3 {
+        width: 100%;
+        height: auto;
+        font-size: 24px;
+        line-height: 32px;
+        margin: 20px 0 0 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    #pic-1 {
+        width: 100%;
+        height: auto;
+        margin: 15px 0 0 0;
+        padding: 0;
     }
 }
