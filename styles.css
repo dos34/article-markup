@@ -97,3 +97,32 @@ body {
     margin-left: 362px;   
     margin-right: 362px;
 }
+
+#pic-2 {
+    width: 700px;
+    height: 923px;
+
+    margin-left: 362px;   
+    margin-right: 362px;
+    margin-top: 41px;
+}
+
+.text-block-5 {
+    font-family:Georgia;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+        width: 700px;
+    height: 165px;
+
+    margin-left: 362px; 
+    margin-right: 362px;
+    margin-bottom: 92px;
+
+}
+
+code {
+    background-color: lightgray;
+    border-radius: 20%;
+}
