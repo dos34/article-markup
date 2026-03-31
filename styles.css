@@ -10,7 +10,7 @@ body {
     width: 700px;
     height: 88px;
     font-size: 42px;
-    color: rgba(0, 0, 0, 0.84);
+    color:rgba(0,0,0,0.84);
     text-align: left;
     line-height: 44px;
     margin-right: 362px;
@@ -19,19 +19,45 @@ body {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
 }
 
+h1.title-1{
+    margin-block-start: 0px;
+}
+
 .paragraf-1 {
     width: 700px;
-    height: 326px;
     margin-right: 362px;
     margin-left: 362px;
     margin-top: 10px;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 21px;
-    color: rgba(0, 0, 0, 0.84);
-    text-align: left;
-    line-height: 33px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    margin-block-end: 0px;
 }
 
+.par2{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+    width:700px;
+    margin-right: 362px;
+    margin-left: 362px;
+    margin-top: 55px;
+}
+
+.par2 p{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    width:700px;
+    margin-bottom: 56px;
+    margin-top: 10px;
+}
 
 .text-block-3 {
 
@@ -108,6 +134,7 @@ body {
     }
 
     .paragraf-1,
+    .par2 p,
     .text-block-3,
     .text-block-4 {
         width: 100%;
@@ -116,6 +143,18 @@ body {
         line-height: 26px;
         margin: 15px 0 0 0;
         padding: 0;
+    }
+
+    .par2{
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:34px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:39px;
+        width:700px;
+        margin-right: 362px;
+        margin-left: 362px;
+        margin-top: 55px;
     }
 
     .p-title-3 {
