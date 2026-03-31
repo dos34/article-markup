@@ -51,3 +51,64 @@ body {
         margin: 15px 0 0 0;
     }
 }
+
+.text-block-3 {
+
+    width: 700px;
+    height: 132px;
+
+    font-family: Georgia, serif;
+    font-size: 21px;
+    line-height: 33px; 
+
+    
+    color: rgba(0, 0, 0, 0.84);
+
+    text-align: left;
+
+
+    margin-left: 362px;   /* Отступ слева */
+    margin-right: 362px;  /* Отступ справа */
+}
+
+
+.p-title-3 {
+    width: 700px;
+    height: 39px;
+
+    margin-top: 10px;
+    margin-left: 364px;   /* Отступ слева */
+    margin-right: 364px; 
+
+    font-family: "Lucida Grande Bold", sans-serif; 
+    font-size: 34px;
+    font-weight: bold; 
+    line-height: 39px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+}
+
+#pic-1 {
+    width: 700px;
+    height: 727px;
+
+    margin-left: 362px; 
+    margin-right: 362px;
+}
+
+
+.text-block-4 {
+    font-family:Georgia;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    font-size: 21px;
+
+    width: 700px;
+    height: 267px;
+
+    margin-left: 362px;   
+    margin-right: 362px;
+}
+
