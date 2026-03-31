@@ -5,6 +5,7 @@ body {
     padding: 40px 20px;
     min-height: 100vh;
 }
+
 .title-1 {
     width: 700px;
     height: 88px;
@@ -18,9 +19,12 @@ body {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
 }
 
+h1.title-1{
+    margin-block-start: 0px;
+}
+
 .paragraf-1 {
     width: 700px;
-    height: 326px;
     margin-right: 362px;
     margin-left: 362px;
     margin-top: 10px;
@@ -29,32 +33,49 @@ body {
     color:rgba(0,0,0,0.84);
     text-align:left;
     line-height:33px;
+    margin-block-end: 0px;
 }
 
-@media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+.par2{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+    width:700px;
+    margin-right: 362px;
+    margin-left: 362px;
+    margin-top: 55px;
 }
 
+.par2 p{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    width:700px;
+    margin-bottom: 56px;
+    margin-top: 10px;
+}
 
 .text-block-3 {
 
     width: 700px;
     height: 132px;
 
-    font-family: Georgia, serif;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 21px;
-    line-height: 33px; 
+    line-height: 33px;
 
-    
+
     color: rgba(0, 0, 0, 0.84);
 
     text-align: left;
 
 
-    margin-left: 362px;   /* Отступ слева */
-    margin-right: 362px;  /* Отступ справа */
+    margin-left: 362px;
+    margin-right: 362px;
 }
 
 
@@ -63,12 +84,12 @@ body {
     height: 39px;
 
     margin-top: 10px;
-    margin-left: 364px;   /* Отступ слева */
-    margin-right: 364px; 
+    margin-left: 364px;
+    margin-right: 364px;
 
-    font-family: "Lucida Grande Bold", sans-serif; 
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size: 34px;
-    font-weight: bold; 
+    font-weight: bold;
     line-height: 39px;
     color: rgba(0, 0, 0, 0.84);
     text-align: left;
@@ -78,23 +99,22 @@ body {
     width: 700px;
     height: 727px;
 
-    margin-left: 362px; 
+    margin-left: 362px;
     margin-right: 362px;
 }
 
 
 .text-block-4 {
-    font-family:Georgia;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
 
     width: 700px;
     height: 267px;
 
-    margin-left: 362px;   
+    margin-left: 362px;
     margin-right: 362px;
 }
 
@@ -125,4 +145,80 @@ body {
 code {
     background-color: lightgray;
     border-radius: 20%;
+}
+@media (max-width: 800px) {
+    body {
+        padding: 20px 15px;
+    }
+
+    .title-1 {
+        width: 100%;
+        height: auto;
+        font-size: 28px;
+        line-height: 36px;
+        margin: 20px 0 0 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .paragraf-1 {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
+
+    .par2 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 32px;
+        margin: 20px 0 0 0;
+        padding: 0;
+    }
+
+    .par2 p {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    .text-block-3 {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
+
+    .p-title-3 {
+        width: 100%;
+        height: auto;
+        font-size: 24px;
+        line-height: 32px;
+        margin: 20px 0 0 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    #pic-1 {
+        width: 100%;
+        height: auto;
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
+
+    .text-block-4 {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
 }
