@@ -146,6 +146,7 @@ code {
     background-color: lightgray;
     border-radius: 20%;
 }
+
 @media (max-width: 800px) {
     body {
         padding: 20px 15px;
@@ -220,5 +221,29 @@ code {
         line-height: 26px;
         margin: 15px 0 0 0;
         padding: 0;
+    }
+
+    #pic-2 {
+        width: 100%;
+        height: auto;
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
+
+    .text-block-5 {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
+
+    code {
+        display: inline-block;
+        max-width: 100%;
+        overflow-x: auto;
+        white-space: pre-wrap;
+        word-wrap: break-word;
     }
 }
